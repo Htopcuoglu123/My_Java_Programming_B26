@@ -1,0 +1,56 @@
+Map
+
+    interface that maintains the key/value elements
+
+    does not inherit the Collection interface
+
+    Entry: key/value pair
+
+        keys must be unique
+        values can be duplicate
+
+Class that implement the Map interface
+
+    HashMap: the order is not guaranteed
+        null key is allowed
+
+    LinkedHashMap: insertion order is maintained
+        null key is allowed
+
+    TreeMap: implements SortedMap. The entries are sorted by the keys in natural order
+        null key is not allowed
+
+    HashTable: the order is not guaranteed
+        synchronized (thread safe)
+        does not allow null keys or values
+
+    Note:
+        insertion order: the order the elements are added to the collection
+
+        natural order: entries are added and sorted based on the keys
+            ascii, small -> large
+
+syntax of HashMap
+
+    Map< key, value > name = new HashMap<>();
+
+methods
+
+    put( k , v):
+        add the entry (key/value) to the map
+
+        -> if the key exist the value will be changed/updated
+
+    get( k ):
+        return the value that is related to the given key argument
+
+        Q: What if we get a key that doesn't exist --> null
+
+    remove( k )
+        remove the entire entry (both key and value) based on the given key argument
+
+    containsKey( k )
+        return boolean. checks if the map has the given key argument
+
+    containsValue( v )
+        return boolean. checks if the map has the given value argument

@@ -1,0 +1,53 @@
+5/21/2022
+
+Day 61 Maps
+
+day61_maps
+____________________________________________________________
+
+Collection Framework
+    Queue
+    Iterator
+
+Maps
+____________________________________________________________
+
+Queue:
+    child of Collection interface
+
+    interface that follows FIFO: first in, first out
+
+    oracle definition: Queue typically, but do not necessarily, order the elements in a FIFO manner
+
+    PriorityQueue:
+        class the implements the Queue interface
+            -> even thought it implements Queue the order of the elements is not based on insertion order
+
+            internally is working with some priority, by default it is in ascending order
+
+    ArrayDeque:
+        class that implements Deque
+
+        usually be faster than stack using LIFO, and faster than a LinkedList used for as a queue
+
+    Deque: interface that defines methods that allows access to the beginning and end of the collection
+        child of Queue interface
+
+        -> LinkedList also implements the Deque
+        defines methods like: addFirst,offerFirst,peekLast
+
+    Methods of Queue:
+
+        add()
+        remove()
+        element(): checks what is at the top of the queue
+
+            -> these methods face an issue there will be an exception thrown
+
+        offer()->same as add
+        poll()->same as remove
+        peek()->same as element
+
+            -> these methods face an issue they will return null
+
+        -> most likely if you want to use FIFO function these methods are useful

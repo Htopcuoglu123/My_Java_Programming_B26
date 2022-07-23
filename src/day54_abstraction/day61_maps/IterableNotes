@@ -1,0 +1,18 @@
+Iterable interface
+
+    parent of the Collection interface
+
+    any class that implements the Collection interface can use the iterator, which means it can use a for loop
+    and create its own iterator object
+
+    Iterator object is a way to manually iterate through the elements of the collection one at a time
+
+    method of iterator:
+
+        next(): moves to the next element, and returns it
+        hasNext(): check if there is an element after it, returns boolean
+        remove(): remove the current element from the collection
+
+    syntax to create the object:
+
+        Iterator<dataType> name = collection.iterator();

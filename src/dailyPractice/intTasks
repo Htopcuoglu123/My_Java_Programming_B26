@@ -1,0 +1,35 @@
+1Numbers -- print consecutive numbers
+Write a function that, given a positive integer N, prints the consecutive numbers from 1 to N, each on a separate line. However, any number divisible by 2, 3 or 5 should be replaced by the word Codility, Test or Coders respectively. If a number is divisible by more than one of the numbers: 2,3 or 5, it should be replaced by a concatenation of the respective words Codility, Test and Coders in this given order. For example, numbers divisible by both 2 and 3 should be replacée by CodilityTest and numbers divisible by all three numbers: 2,3 and 5, should be replaced by CodilityTestCoders.
+For example, here is the output for N = 24:
+1
+Codility
+Test
+Codility
+Coders
+CodilityTest
+7
+Codility
+Test
+Codi1ityCoders
+11
+CodilityTest
+13
+Codility
+TestCoders
+Codility
+17
+....
+2.Numbers -- Armstrong numbers
+Write a method that can check if a number is Armstrong  number
+3.Number -- Reverse negative number
+Write a return method that can reverse negative number and return it as int
+4.String -- Frequency of Characters
+Write a return method that can find the frequency of characters
+Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
+5.String -- Same letters
+Write a return method that check if a string is build out of the same letters as another string.
+Ex:  same("abc",  "cab"); -> true
+same("abc",  "abb"); -> false:
+6.String -- Remove Duplicates
+Write a return method that can remove the duplicated values from String
+Ex:  removeDup("AAABBBCCC")  ==> ABC

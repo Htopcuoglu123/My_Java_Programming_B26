@@ -1,0 +1,85 @@
+1) Number - Reverse negative number
+Write a return method that can reverse negative number and return it as int
+
+2) Numbers - Armstrong numbers
+Write a method that can check if a number is Armstrong  number
+
+3) Numbers - Prime Number
+Write a method that can check if a number is prime or not
+
+4)Array - Find Maximum
+Write a method that can find the maximum number from an int Array
+
+5)Array - Find Minimum
+Write a method that can find the maximum number from an int Array
+
+Interview Question: How to find count of  3’s between 1-1000?
+====================================================================
+1) String - Sort Letters and Numbers from alphanumeric String
+Given alphanumeric String, we need to split the string into substrings of consecutive letters or numbers, sort the individual string and append them back together. Ex:
+Input:  "DC501GCCCA098911"
+Output: "CD015ACCCG011899"
+
+2) String - Password Validation Task
+Write a return method that can verify if a password is valid or not. Requirements:
+ 1. Password MUST be at least 6 characters and should not contain space
+2. Password should at least contain one upper case letter
+3. Password should at least contain one lowercase letter
+4. Password should at least contain one special characters
+5. Password should at least contain a digit
+6. if all requirements above are met, the method returns true, otherwise returns false
+
+3) String - sum of digits in a string
+Write a method that can return the sum of the digits in a string
+
+4) Array - Find Maximum & Find Minimum
+Write a method that can find the maximum number from an int Array
+Write a method that can find the maximum number from an int Array
+
+5) Array - Sort Ascending
+Write a return method that can sort an int array in Ascending order without using the sort method of the Arrays class
+Ex:
+            int[] arr = {10, 9, 8, 7};
+             arr = Sort(arr);         ==>{ 7, 8, 9, 10};
+
+6) Array - Sort Descending
+Write a return method that can sort an int array in descending order without using the sort method of the Arrays class
+Ex:  int[] arr = {10,20,7, 8, 90};
+                 arr = Sort(arr);  ==>  {90, 20, 10, 8, 7};
+
+================================================================================
+1Numbers -- print consecutive numbers
+Write a function that, given a positive integer N, prints the consecutive numbers from 1 to N, each on a separate line. However, any number divisible by 2, 3 or 5 should be replaced by the word Codility, Test or Coders respectively. If a number is divisible by more than one of the numbers: 2,3 or 5, it should be replaced by a concatenation of the respective words Codility, Test and Coders in this given order. For example, numbers divisible by both 2 and 3 should be replacée by CodilityTest and numbers divisible by all three numbers: 2,3 and 5, should be replaced by CodilityTestCoders.
+For example, here is the output for N = 24:
+1
+Codility
+Test
+Codility
+Coders
+CodilityTest
+7
+Codility
+Test
+Codi1ityCoders
+11
+CodilityTest
+13
+Codility
+TestCoders
+Codility
+17
+....
+2.Numbers -- Armstrong numbers
+Write a method that can check if a number is Armstrong  number
+3.Number -- Reverse negative number
+Write a return method that can reverse negative number and return it as int
+4.String -- Frequency of Characters
+Write a return method that can find the frequency of characters
+Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
+5.String -- Same letters
+Write a return method that check if a string is build out of the same letters as another string.
+Ex:  same("abc",  "cab"); -> true
+same("abc",  "abb"); -> false:
+6.String -- Remove Duplicates
+Write a return method that can remove the duplicated values from String
+Ex:  removeDup("AAABBBCCC")  ==> ABC
